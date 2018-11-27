@@ -1,30 +1,36 @@
 html {
     font-family: "Libre Franklin", Tahoma, sans-serif;
-    font-size: 12px;
+    font-size: 10px;
 
-    section.main {
-        margin: 0 auto;
-        width: 1024px;
+    body {
+        margin: 16px;
 
-        header {
-            align-items: center;
-            display: flex;
+        section.main {
+            font-size: 4em;
+            text-align: center;
 
-            svg {
-                flex: none;
-                height: 81px;
-                margin-right: 16px;
-                width: 80px;
+            header {
+                align-items: center;
+                display: flex;
+                text-align: left;
+
+                svg {
+                    flex: none;
+                    height: 4em;
+                    margin: 0 1em;
+                    width: 4em;
+                }
+
+                p {
+                    flex: auto;
+                    font-size: 1.25em;
+                    line-height: 1.25em;
+                }
             }
 
-            p {
-                flex: auto;
-                font-size: 1.5em;
+            video {
+                margin: 0.5em 0;
             }
-        }
-
-        video {
-            margin: 16px;
         }
     }
 }

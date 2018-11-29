@@ -3,33 +3,22 @@ html {
     font-size: 10px;
 
     body {
-        margin: 16px;
-
         section.main {
-            font-size: 4em;
-            text-align: center;
+            margin: 0 auto;
+            width: 576px;
 
-            header {
-                align-items: center;
-                display: flex;
-                text-align: left;
-
-                svg {
-                    flex: none;
-                    height: 4em;
-                    margin: 0 1em;
-                    width: 4em;
-                }
-
-                p {
-                    flex: auto;
-                    font-size: 1.25em;
-                    line-height: 1.25em;
-                }
+            section.top {
+                background: url('../resources/bg-top.jpg');
+                height: 152px;
             }
 
             video {
-                margin: 0.5em 0;
+                margin: 8px;
+            }
+
+            section.bottom {
+                background: url('../resources/bg-bottom.jpg');
+                height: 448px;
             }
         }
     }
